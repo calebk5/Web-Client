@@ -6,7 +6,7 @@ html, body {
     margin: 0;
   }
   
-  .onlyeyes {
+  .header {
     height: 80px;
     margin-top: 0px;
     text-align: center;
@@ -16,44 +16,44 @@ html, body {
   
   
   
-  .naval {
+  .barrederecherche {
     font-size: 20px;
     margin-top: 20px;
     margin-right: 20px;
     float: right;
   }
   
-  .naval ul {
+  .barrederecherche ul {
     list-style: none;
     justify-content: space-between;
   }
   
-  .naval a, 
-  .naval a:visited {
+  .barrederecherche a, 
+  .barrederecherche a:visited {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 1000;
   }
-  .naval a:hover {
+  .barrederecherche a:hover {
     text-decoration: none;
     color: rgb(44, 108, 125);
   }
-  .naval a:visited {
+  .barrederecherche a:visited {
     text-decoration: none;
     color: white;
   }
-  .naval a:hover:visited {
+  .barrederecherche a:hover:visited {
     text-decoration: none;
     color: rgb(44, 108, 125);
   }
-  .naval a:active, 
-  .naval a:active:visited {
+  .barrederecherche a:active, 
+  .barrederecherche a:active:visited {
     text-decoration: none;
     color: rgb(77, 192, 224);
   }
   
-  .naval li {
+  .barrederecherche li {
     display: inline;
     padding-left: 1em;
     padding-right: 1em;
@@ -64,14 +64,11 @@ html, body {
     background-color: rgb(16, 41, 16);
   }
   
-  .subtitle{
+  .soussection{
     font-style: italic;
   }
-  .subsubtitle{
-    
-  }
   
-  .datething{
+  .date{
     margin-top: 8px;
     margin-bottom: 8px;
   }
@@ -117,7 +114,7 @@ html, body {
     position: absolute;
     bottom: 0;
   }
-  .feetpics {
+  .basdepage {
     width: 100%;
     /* height: 80px; */
     text-align: center;
@@ -126,7 +123,7 @@ html, body {
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  .feetpics,
+  .basdepage,
   nav {
     justify-content: center;
   }

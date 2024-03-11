@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mixem</title>
-    <link rel="stylesheet" href="Staiile/F_M.css">
+    <link rel="stylesheet" href="Staiile/Form.Membre.css">
 </head>
 
 <body>
     <header>
-        <nav class="onlyeyes">
-            <ul class="naval">
+        <nav class="header">
+            <ul class="barrederecherche">
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -40,13 +40,13 @@
             <div>
                 <label for="subsubtitle">Prenom</label>
                 <div>
-                    <input type="---" name="fname" id="nom" placeholder=""/>
+                    <input name="fname" id="nom" placeholder=""/>
                 </div>
             </div>
             <div>
                 <label for="subsubtitle">Nom</label>
                 <div>
-                    <input type="---" name="lname" id="nom" placeholder=""/>
+                    <input name="lname" id="nom" placeholder=""/>
                 </div>
             </div>
             <div>
@@ -61,7 +61,7 @@
         <fieldset>
             <legend>Competences</legend>
             <div>
-                <label class="subtitle" for="Education">Education</label>
+                <label class="soussection" for="Education">Education</label>
             </div>
             <div>
                 <input type="radio" name="education" id="secondaire" value="SECONDAIRE">
@@ -73,7 +73,7 @@
             </div>
             <br>
             <div>
-                <label class="subtitle" for="Experience">Experience</label>
+                <label class="soussection" for="Experience">Experience 1</label>
             </div>
             <div>
                 <label for="subsubtitle">Titre de l'experience:</label>
@@ -87,12 +87,33 @@
             </div>
             <label for="start_exp">Debut de l'experience</label>
             <br>
-            <input class="datething" type="date" id="start_exp" name="startofexp">
+            <input class="date" type="date" id="start_exp" name="startofexp">
             <br>
             <label for="end_exp">Fin de l'experience</label>
             <br>
-            <input class="datething" type="date" id="end_exp" name="endofexp">
-
+            <input class="date" type="date" id="end_exp" name="endofexp">
+            <div></div>
+            <br>
+            <div>
+                <label class="soussection" for="Experience">Experience 2</label>
+            </div>
+            <div>
+                <label for="subsubtitle">Titre de l'experience:</label>
+                <div>
+                    <input class="textzone" type="text" name="typeofexp" id="typeofexp" placeholder="e.g. Caisier / Directeur"/>
+                </div>
+            </div>
+            <div>
+                <label for="ville">Ville</label>
+                <input type="text" name="ville" id="ville" placeholder="e.g. Totonto"/>
+            </div>
+            <label for="start_exp">Debut de l'experience</label>
+            <br>
+            <input class="date" type="date" id="start_exp" name="startofexp">
+            <br>
+            <label for="end_exp">Fin de l'experience</label>
+            <br>
+            <input class="date" type="date" id="end_exp" name="endofexp">
 
             <div>
                 <p>Est-ce que  l'experience est continuelle a ce jour?</p>
@@ -109,18 +130,17 @@
 
 
     </main>
-    <footer>
-        <div class="feetpics">
-            <nav>
-                <span class="footer-entry">Tristan Bastien</span>
-                <span class="footer-entry-spacer">|</span>
-                <span class="footer-entry"><a href="https://github.com/calebk5/Web-Client">Visitez notre
-                        GitHub</a></span>
-                <span class="footer-entry-spacer">|</span>
-                <span class="footer-entry">&reg;&nbsp;Black Files Official 2024</span>
-            </nav>
-        </div>
-    </footer>
 </body>
-
+<footer>
+    <div class="basdepage">
+        <nav>
+            <span class="footer-entry">Tristan Bastien</span>
+            <span class="footer-entry-spacer">|</span>
+            <span class="footer-entry"><a href="https://github.com/calebk5/Web-Client">Visitez notre
+                    GitHub</a></span>
+            <span class="footer-entry-spacer">|</span>
+            <span class="footer-entry">&reg;&nbsp;Black Files Official 2024</span>
+        </nav>
+    </div>
+</footer>
 </html>
