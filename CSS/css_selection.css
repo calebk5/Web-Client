@@ -1,7 +1,5 @@
-/* Importation des polices Google */
 @import url('https://fonts.googleapis.com/css2?family=Cookie:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* Réinitialisation des styles par défaut */
 html, body {
     font-size: 14px;
     font-family: sans-serif;
@@ -10,13 +8,13 @@ html, body {
     margin: 0;
 }
 
-/* Styles de l'en-tête */
 header {
     background-color: rgb(255, 255, 255);
-    outline: 1px solid rgb(43, 23, 0); /* Ajout d'une bordure solide */
+    outline: 1px;
+    outline-color: rgb(43, 23, 0);
+    outline-style: solid;
 }
 
-/* Navigation en haut de la page */
 .haut_de_page {
     max-width: 1500px;
     margin: 0 auto;
@@ -42,17 +40,22 @@ header {
     color: rgb(208, 155, 30);
     text-transform: uppercase;
 }
+.haut_de_page a:hover {
+    color: rgb(43, 23, 0);
+}
 
-.haut_de_page a:hover,
 .haut_de_page a:active {
     color: rgb(43, 23, 0);
 }
 
-.haut_de_page li:last-of-type {
+.haut_de_page nav, ul, li {
+    text-align: right;
+}
+
+.haut_de_page li:last-of-type{
     margin-right: 50px;
 }
 
-/* Styles du logo */
 .logo {
     font-family: Cookie;
     padding-left: 30px;
@@ -71,51 +74,29 @@ header {
 .logo,
 nav,
 .haut_de_page li,
-.logo img {
+.logo img{
     display: inline-block;
 }
 
-/* Styles du sous-menu */
 .sous-menu {
     display: none; /* Cacher le sous-menu par défaut */
     position: absolute; /* Position par rapport au parent */
-    top: 25px; /* Ajuster si nécessaire */
+    top: 25x;
     background-color: rgb(249, 243, 236);
     border-radius: 5%;
     padding-top: 10px;
     text-align: left;
-    z-index: 100; /* Éviter les chevauchements */
+    padding-left: 10%;
+    z-index: 100; /* Eviter les chevauchements */
 }
 
 .haut_de_page li:hover .sous-menu {
     display: block;
 }
-
 .sous-menu li {
     margin: 7px;
 }
 
-/* Section de bienvenue */
-.bienvenue {
-    font-family: Cookie;
-    text-align: center;
-    color: rgb(241, 232, 217);
-    padding: 10px;
-    font-size: 30px;
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-image: url(https://img.freepik.com/free-photo/flat-lay-types-bread-black-copy-space-background_23-2148432256.jpg?w=1800&t=st=1710112744~exp=1710113344~hmac=73c7ae37e7501f824b0de4e71ec7ea2963c8378a750e19d41cca1a723ad7a613);
-}
-
-div.bienvenue div {
-    border: 2px solid;
-    border-color: rgb(241, 232, 217);
-    display: inline-block;
-    padding: 10px;
-}
-
-/* Conteneur de la page et enveloppe du contenu */
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -125,7 +106,6 @@ div.bienvenue div {
     padding-bottom: 50px;
 }
 
-/* Styles du pied de page */
 footer {
     background-color: rgb(26, 17, 0);
     position: absolute;
@@ -157,7 +137,11 @@ footer {
     color: rgb(208, 155, 30);
 }
 
-.bas_de_page li:last-of-type {
+.bas_de_page nav, ul, li {
+    text-align: right;
+}
+
+.bas_de_page li:last-of-type{
     margin-right: 50px;
 }
 
@@ -166,8 +150,7 @@ footer {
     display: inline-block;
 }
 
-/* Section des produits sur la page d'accueil */
-.produit_accueil div {
+/* .produit_accueil div {
     display: flex;
     align-items: center;
 }
@@ -186,12 +169,12 @@ footer {
 .produit_accueil p {
     text-align: left;
     width: 35%;
-    font-size: 20px; /* Ajustement de la taille de la police */
+    font-size: 15px;
 }
 
 .produit_accueil h4 {
     font-family: Cookie;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(208, 155, 30);
     text-align: left;
     background-color: rgb(241, 230, 195);
@@ -200,66 +183,73 @@ footer {
     border-radius: 5%;
 }
 
-.produit_accueil div > div {
+.produit_accueil div>div {
     display: inline-block;
     padding-left: 5%;
-}
+} */
 
-/* Section d'informations d'introduction */
-.intro_info {
-    background-image: url(https://laboulangeriedemarie.com/wp-content/uploads/2019/12/image-patisserie-tartelette_la-boulangerie-de-marie.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-}
-
-.intro_info div {
-    align-items: center;
-    width: 45%;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 252, 240);
+    max-width: 300px;
+    margin: 5%;
     text-align: center;
-    padding-top: 3%;
+    font-family: arial;
 }
 
-.intro_info h2 {
+.card img {
+    width:100%;
+
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(39, 26, 2);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+div.selection {
+    text-align: center;
+    background-color: rgb(213, 205, 185);
+
+}
+
+div.selection h2 {
     font-family: Cookie;
     font-size: 40px;
-    color: rgb(26, 17, 0);
-    background-color: rgba(241, 230, 195, 0.678);
+    color: rgb(255, 252, 240);
+    background-color: rgb(26, 17, 0);
     padding: 10px;
     border-radius: 5%;
-    display: inline;
+    display: inline-block;
 }
 
-.intro_info li {
-    text-align: left;
+div.selection h3 {
     font-family: Cookie;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(26, 17, 0);
-    padding: 5px;
-    padding-left: 42%;
-    list-style-position: inside;
+    font-size: 40px;
+    color: rgb(255, 252, 240);
+    background-color: rgba(26, 17, 0, 0.479);
+    padding: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
-.intro_info ul {
-    background-color: rgba(241, 230, 195, 0.78);
-    border-radius: 5%;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.intro_info iframe {
-    margin-bottom: 50px;
-}
-
-.intro_info p {
-    background-color: rgba(241, 230, 195, 0.78);
-    border-radius: 5%;
-    margin-left: 20px;
-    margin-top: 20px;
-    text-align: left;
-    font-family: Cookie;
-    font-size: 30px;
-    color: rgb(26, 17, 0);
-    padding: 5px;
+div.produits {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
 }

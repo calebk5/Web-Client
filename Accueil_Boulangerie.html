@@ -1,89 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"> <!-- Langue définie comme français -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Totoko's Temptations</title>
-    <link rel="stylesheet" href="./CSS/css_accueil.css">
+    <title>Totoko's Temptations</title> <!-- Titre de la page -->
+    <link rel="stylesheet" href="./CSS/css_accueil.css"> <!-- Liaison vers la feuille de style CSS -->
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="logo">Totoko's Temptations</div>
-
-            <nav class="haut_de_page">
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Sélection de produits</a>
-                        <ul class="sous-menu">
-                            <li><a href="#">Pains &amp; baguettes</a></li>
-                            <li><a href="#">Muffins</a></li>
-                            <li><a href="#">Gâteaux</a></li>
-                            <li><a href="#">Viennoiserie</a></li>
-                            <li><a href="#">Collations</a></li>
+    <div id="page-container">
+        <div id="content-wrap">
+            <!-- En-tête de la page -->
+            <header>
+                <div class="haut_de_page">
+                    <!-- Logo et navigation -->
+                    <div class="logo"><img src="./Images/Totokos.Temptations.Logo.Website.png" width="50px" alt="Logo">Totoko's Temptations</div>
+                    <nav>
+                        <ul>
+                            <!-- Liens de navigation -->
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Sélection de produits</a>
+                                <!-- Sous-menu de sélection de produits -->
+                                <ul class="sous-menu">
+                                    <li><a href="#">Viennoiserie</a></li>
+                                    <li><a href="#">Pains délicieux</a></li>
+                                    <li><a href="#">Muffins</a></li>
+                                    <li><a href="#">Gâteaux</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Inscription</a></li>
+                            <li><a href="#">Notre mission &amp; histoire</a></li>
+                            <li><a href="#">Notre équipe</a></li>
+                            <li><a href="#">Contactez-nous</a></li>
                         </ul>
-                    </li>
-                    <li><a href="#">Inscription</a></li>
-                    <li><a href="#">Notre mission &amp; histoire</a></li>
-                    <li><a href="#">Notre équipe</a></li>
-                    <li><a href="#">Contactez-nous</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <div class="bienvenue">
-            <h2>Explorez notre palette de saveurs dans notre</h2>
-            <h1>Boulangerie artisanale</h1>
-            <img src="./Images/image accueil 1.avif" width="400" alt="Pains de notre boulangerie">
-        </div>
-
-        <section class="presentation">
-            <div>
-                <h2>Nos produits les plus populaires</h2>
-                <div>
-                    <h3>Muffin au fraise</h3>
-                    <h3>Muffin au fraise</h3>
-                    <h3>Muffin au fraise</h3>
-                    <h3>Muffin au fraise</h3>
-                    <h3>Muffin au fraise</h3>
-                    <h3>Muffin au fraise</h3>
-                    <h3>Muffin au fraise</h3>
-
+                    </nav>
                 </div>
-            </div>
+            </header>
 
-            <div>
-                <h2>Heures d'ouverture</h2>
-                <ul>
-                    <li>Lundi</li>
-                    <li>Lundi</li>
-                    <li>Lundi</li>
-                    <li>Lundi</li>
-                    <li>Lundi</li>
-                    <li>Lundi</li>
-                </ul>
-            </div>
-        </section>
-    </main>
+            <!-- Contenu principal de la page -->
+            <main>
+                <!-- Section de bienvenue -->
+                <div class="bienvenue">
+                    <div>
+                        <h2>Explorez notre palette de saveurs dans notre</h2>
+                        <h1>Boulangerie artisanale</h1>
+                    </div>
+                </div>
 
-    <footer>
-        <div class="bas_de_page">
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Sélection de produits</a></li>
-                    <li><a href="#">Inscription</a></li>
-                    <li><a href="#">Notre mission &amp; histoire</a></li>
-                    <li><a href="#">Notre équipe</a></li>
-                    <li><a href="#">Contactez-nous</a></li>
-                </ul>
-            </nav>
+                <!-- Section des produits d'accueil -->
+                <div class="produit_accueil">
+                    <h2>Nos produits les plus achetés</h2>
+                    <div>
+                        <!-- Premier produit -->
+                        <img src="./Images/Dessert-Muffin-PNG-Free-Download.png" height="500px" alt="Muffin au chocolat">
+                        <div>
+                            <h4>Muffin au chocolat</h4>
+                            <p>
+                                Découvrez nos muffins au chocolat divinement moelleux, préparés avec les meilleurs ingrédients pour une expérience chocolatée inoubliable.
+                                Chaque bouchée est un mariage parfait entre la douceur du muffin et l'intensité du chocolat, agrémentée de pépites fondantes pour une texture irrésistible.
+                                Parfait pour une pause gourmande ou un dessert décadent.</p>
+                        </div>
+                    </div>
+
+                    <!-- Deuxième produit -->
+                    <div>
+                        <img src="./Images/Baguette.png" width="500px" alt="Baguette">
+                        <div>
+                            <h4>Baguette dorée</h4>
+                            <p>
+                                Explorez nos baguettes artisanales, croustillantes à l'extérieur et incroyablement moelleuses à l'intérieur. Fabriquées avec soin à partir des meilleurs ingrédients,
+                                chaque bouchée offre une sensation de fraîcheur et de qualité inégalée. Que ce soit pour accompagner un repas, tartiner avec vos fromages préférés ou déguster simplement
+                                avec un peu de beurre, nos baguettes sont l'incarnation parfaite du savoir-faire boulanger.</p>
+                        </div>
+                    </div>
+
+                    <!-- Troisième produit -->
+                    <div>
+                        <img src="./Images/gateau.avif" width="500px" alt="Gâteau">
+                        <div>
+                            <h4>Gâteau aux choco-fraises</h4>
+                            <p>
+                                Découvrez notre gâteau aux choco-fraises, une fusion divine de saveurs sucrées et acidulées qui ravira vos papilles. Chaque tranche est un festin pour les sens, avec des couches
+                                de gâteau moelleux au chocolat intercalées de crème légère et de fraises fraîches. Laissez-vous emporter par la richesse du chocolat et la fraîcheur des fruits,
+                                pour une expérience gustative inoubliable. Parfait pour célébrer les moments spéciaux ou simplement pour s'offrir une indulgence sucrée.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section d'informations d'introduction -->
+                <div class="intro_info">
+                    <div>
+                        <!-- Heures d'ouverture -->
+                        <h2>Nos heures d'ouverture</h2>
+                        <ul>
+                            <!-- Liste des heures d'ouverture -->
+                            <li><span>Lundi : 8h-18h</span></li>
+                            <li><span>Mardi : 8h-18h</span></li>
+                            <li>Mercredi : 8h-18h</li>
+                            <li>Jeudi : 8h-18h</li>
+                            <li>Vendredi : 8h-18h</li>
+                            <li>Samedi : 10h-17h</li>
+                            <li>Dimanche : 10h-17h</li>
+                        </ul>
+                        <!-- Description -->
+                        <p>Chez Les Tentations de Totoko, chaque miche de pain, chaque viennoiserie et chaque pâtisserie est préparée avec soin et dévotion, en utilisant des ingrédients de la plus haute qualité et
+                            des méthodes de fabrication artisanales transmises de génération en génération.</p>
+                        <p>Nous vous invitons à vous laisser séduire par nos délices fraîchement sortis du four, allant des pains rustiques aux croissants dorés, en passant par nos gâteaux exquis et nos desserts
+                            gourmands. Que vous soyez à la recherche d'un petit plaisir sucré pour accompagner votre café du matin ou d'une délicieuse fournée pour une occasion spéciale, Les Tentations de Totoko saura
+                            combler vos envies les plus gourmandes.</p>
+                    </div>
+
+                    <div>
+                        <!-- Emplacement -->
+                        <h2>Notre emplacement</h2>
+                        <div></div>
+                        <!-- Carte Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11198.024034032962!2d-75.6268076!3d45.4394585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0ff104b131ed%3A0x5045d05b7789c105!2zQ29sbMOoZ2UgTGEgQ2l0w6k!5e0!3m2!1sfr!2sca!4v1710124052989!5m2!1sfr!2sca" 
+                        width="600" height="450" allowfullscreen="" loading="lazy" title="Notre emplacement" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </main>
         </div>
-    </footer>
+        <!-- Pied de page -->
+        <footer>
+            <div class="bas_de_page">
+                <nav>
+                    <ul>
+                        <!-- Liens de navigation du pied de page -->
+                        <li><a href="https://github.com/calebk5/Web-Client">Visitez notre répertoire GitHub en cliquant ici</a></li>
+                        <li>Téléphonez-nous au : <a href="tel:819-123-1234">819&#8209;123&#8209;1234</a></li>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Sélection de produits</a></li>
+                        <li><a href="#">Inscription</a></li>
+                        <li><a href="#">Notre mission &amp; histoire</a></li>
+                        <li><a href="#">Notre équipe</a></li>
+                        <li><a href="#">Contactez-nous</a></li>
+                        <li>©Totoko &amp; Family</li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
