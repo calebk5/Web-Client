@@ -79,12 +79,12 @@ nav,
 .sous-menu {
     display: none; /* Cacher le sous-menu par défaut */
     position: absolute; /* Position par rapport au parent */
-    top: 25px; /* Ajuster si nécessaire */
+    top: 15px; /* Ajuster si nécessaire */
     background-color: rgb(249, 243, 236);
     border-radius: 5%;
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: left;
-    z-index: 100; /* Éviter les chevauchements */
+    z-index: 50; /* Éviter les chevauchements */
 }
 
 .haut_de_page li:hover .sous-menu {
