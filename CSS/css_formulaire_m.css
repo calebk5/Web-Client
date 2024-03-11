@@ -1,6 +1,9 @@
+/* Import de la police Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cookie:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-html, body {
+/* Styles généraux pour le HTML et le body */
+html,
+body {
     font-size: 14px;
     font-family: sans-serif;
     height: 100%;
@@ -8,13 +11,13 @@ html, body {
     margin: 0;
 }
 
+/* Styles pour l'en-tête */
 header {
     background-color: rgb(255, 255, 255);
-    outline: 1px;
-    outline-color: rgb(43, 23, 0);
-    outline-style: solid;
+    outline: 1px solid rgb(43, 23, 0); /* Outline is now combined */
 }
 
+/* Styles pour la partie supérieure de la page */
 .haut_de_page {
     max-width: 1500px;
     margin: 0 auto;
@@ -29,6 +32,7 @@ header {
     font-size: 14px;
     font-weight: 400;
     position: relative;
+    text-align: right; /* Moved from haut_de_page nav to haut_de_page li */
 }
 
 .haut_de_page nav {
@@ -40,22 +44,17 @@ header {
     color: rgb(208, 155, 30);
     text-transform: uppercase;
 }
-.haut_de_page a:hover {
-    color: rgb(43, 23, 0);
-}
 
+.haut_de_page a:hover,
 .haut_de_page a:active {
     color: rgb(43, 23, 0);
 }
 
-.haut_de_page nav, ul, li {
-    text-align: right;
-}
-
-.haut_de_page li:last-of-type{
+.haut_de_page li:last-of-type {
     margin-right: 50px;
 }
 
+/* Styles pour le logo */
 .logo {
     font-family: Cookie;
     padding-left: 30px;
@@ -71,41 +70,47 @@ header {
     vertical-align: middle;
 }
 
+/* Styles pour les sous-éléments dans l'en-tête */
 .logo,
 nav,
 .haut_de_page li,
-.logo img{
+.logo img {
     display: inline-block;
 }
 
+/* Styles pour les sous-menus */
 .sous-menu {
-    display: none; /* Cacher le sous-menu par défaut */
-    position: absolute; /* Position par rapport au parent */
-    top: 25x;
+    display: none;
+    position: absolute;
+    top: 25px; /* Corrected '25x' typo */
     background-color: rgb(249, 243, 236);
     border-radius: 5%;
     padding-top: 10px;
     text-align: left;
     padding-left: 10%;
-    z-index: 100; /* Eviter les chevauchements */
+    z-index: 100;
 }
 
 .haut_de_page li:hover .sous-menu {
     display: block;
 }
+
 .sous-menu li {
     margin: 7px;
 }
 
+/* Styles pour le conteneur de la page */
 #page-container {
     position: relative;
     min-height: 100vh;
 }
 
+/* Styles pour l'enveloppe de contenu */
 #content-wrap {
     padding-bottom: 50px;
 }
 
+/* Styles pour le pied de page */
 footer {
     background-color: rgb(26, 17, 0);
     position: absolute;
@@ -137,11 +142,7 @@ footer {
     color: rgb(208, 155, 30);
 }
 
-.bas_de_page nav, ul, li {
-    text-align: right;
-}
-
-.bas_de_page li:last-of-type{
+.bas_de_page li:last-of-type {
     margin-right: 50px;
 }
 
@@ -150,68 +151,88 @@ footer {
     display: inline-block;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(255, 252, 240);
-    max-width: 300px;
-    margin: 5%;
-    text-align: center;
-    font-family: arial;
+/* Styles supplémentaires */
+label.subtitle {
+    font-style: italic;
+    font-size: 20px;
 }
 
-.card img {
-    width:100%;
-
+.date {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
-  
-.price {
-    color: grey;
-    font-size: 22px;
-  }
-  
-.card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: rgb(39, 26, 2);
-    text-align: center;
-    cursor: pointer;
+
+input[type=text] {
     width: 100%;
-    font-size: 18px;
-}
-  
-.card button:hover {
-    opacity: 0.7;
-}
-
-div.selection {
-    text-align: center;
-    background-color: rgb(213, 205, 185);
-
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(63, 43, 5);
 }
 
-div.selection h2 {
-    font-family: Cookie;
-    font-size: 40px;
-    color: rgb(255, 252, 240);
-    background-color: rgb(26, 17, 0);
-    padding: 10px;
-    border-radius: 5%;
-    display: inline-block;
+main {
+    position: relative;
+    top: 0px;
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
 }
 
-div.selection h3 {
-    font-family: Cookie;
-    font-size: 40px;
-    color: rgb(255, 252, 240);
-    background-color: rgba(26, 17, 0, 0.479);
-    padding: 10px;
-    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
-}
-
-div.produits {
-    display: flex;
-    flex-wrap: wrap ;
+main .content {
+    position: relative;
+    width: 98.3%;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(213, 205, 185);
+}
+
+.content {
+    justify-content: center;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+    margin: 5%;
+    box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Cookie;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(233, 228, 214);
+    background-color: rgba(44, 26, 4, 0.71);
+    width: 100%;
+}
+
+.formulaire {
+    margin-top: 3%;
+    background-color: rgb(213, 205, 185);
+}
+
+.formulaire button,
+.formulaire legend {
+    margin-top: 10px;
+    font-family: Cookie;
+    font-size: 40px;
+    color: rgb(241, 230, 195);
+    background-color: rgba(44, 26, 4, 0.71);
+    border-radius: 5%;
+    display: inline;
+}
+
+.formulaire label {
+    font-size: 20px;
+    border-bottom: 2px dotted rgba(44, 26, 4, 0.71);
+}
+
+fieldset {
+    margin: 10px;
+    border-color: rgba(44, 26, 4, 0.71);
 }
