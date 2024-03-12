@@ -169,7 +169,7 @@ footer {
 /* Section des produits sur la page d'accueil */
 .produit_accueil div {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Align items at the top */
 }
 
 .produit_accueil h2 {
@@ -177,6 +177,7 @@ footer {
     font-size: 40px;
     color: rgb(26, 17, 0);
     text-align: center;
+    margin-top: 10px; /* Add some top margin for spacing */
 }
 
 .produit_accueil img {
@@ -195,9 +196,11 @@ footer {
     color: rgb(208, 155, 30);
     text-align: left;
     background-color: rgb(241, 230, 195);
-    display: inline;
     padding: 10px;
     border-radius: 5%;
+    display: inline;
+    margin-top: 10px; /* Add some top margin for spacing */
+    margin-bottom: 0; /* Remove bottom margin */
 }
 
 .produit_accueil div > div {
@@ -262,4 +265,88 @@ footer {
     font-size: 30px;
     color: rgb(26, 17, 0);
     padding: 5px;
+}
+
+/* Media queries pour la réactivité */
+
+/* Pour les écrans plus petits, réduisez la taille de la police */
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .haut_de_page li {
+        font-size: 12px;
+    }
+
+    .produit_accueil h2 {
+        font-size: 30px;
+    }
+
+    .produit_accueil img {
+        padding-left: 10%;
+    }
+
+    .produit_accueil p {
+        width: 50%;
+    }
+
+    .produit_accueil h4 {
+        font-size: 30px;
+    }
+
+    .intro_info div {
+        width: 100%;
+    }
+
+    .intro_info h2 {
+        font-size: 30px;
+    }
+
+    .intro_info li {
+        font-size: 16px;
+    }
+
+    .intro_info p {
+        font-size: 20px;
+    }
+}
+
+/* Pour les écrans très petits, réduisez encore plus la taille de la police */
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 16px;
+    }
+
+    .haut_de_page li {
+        font-size: 10px;
+    }
+
+    .produit_accueil h2 {
+        font-size: 24px;
+    }
+
+    .produit_accueil img {
+        padding-left: 5%;
+    }
+
+    .produit_accueil p {
+        width: 70%;
+    }
+
+    .produit_accueil h4 {
+        font-size: 24px;
+    }
+
+    .intro_info h2 {
+        font-size: 24px;
+    }
+
+    .intro_info li {
+        font-size: 14px;
+    }
+
+    .intro_info p {
+        font-size: 16px;
+    }
 }
