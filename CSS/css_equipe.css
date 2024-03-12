@@ -154,7 +154,7 @@ footer {
 }
 
 .bas_de_page a:hover {
-    color: rgb(208, 155, 30);
+    color: rgb(201, 175, 139);
 }
 
 .bas_de_page li:last-of-type {
@@ -165,11 +165,15 @@ footer {
 .bas_de_page li {
     display: inline-block;
 }
-.Notre_equipe1{
+.Notre_equipe3 h2,
+.Notre_equipe h1{
     text-align: center;
     font-family: Cookie;
     font-size: 50px;
-    background-color: bisque;
+    color: rgb(26, 17, 0);
+    background-color: rgba(241, 230, 195, 0.797);
+    border-radius: 5%;
+    padding: 5px;
 }
 .Notre_equipe{
     padding-left: 40%;
@@ -180,23 +184,24 @@ footer {
     height: 100px;
 }
 .background{
-    background-color: rgb(203, 181, 127);
+    background-color: rgba(241, 230, 195, 0.797);
     border-collapse: collapse;
 }
 .background-hover:hover{
-    background-color: bisque;
+    background-color: rgb(148, 137, 113);
 }
 .Font{
     font-family: Cookie;
     font-size: 25px;
+    padding: 30px;
 }
 .Notre_equipe3{
     padding-left: 40%;
     padding-right:40% ;
 }
 .video{
-    width: 500%;
-    margin: auto;
+    width: 100%;
+    margin: 0;
 }
 
 
