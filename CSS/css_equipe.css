@@ -95,26 +95,6 @@ nav,
     margin: 7px;
 }
 
-/* Section de bienvenue */
-.bienvenue {
-    font-family: Cookie;
-    text-align: center;
-    color: rgb(241, 232, 217);
-    padding: 10px;
-    font-size: 30px;
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-image: url(https://img.freepik.com/free-photo/flat-lay-types-bread-black-copy-space-background_23-2148432256.jpg?w=1800&t=st=1710112744~exp=1710113344~hmac=73c7ae37e7501f824b0de4e71ec7ea2963c8378a750e19d41cca1a723ad7a613);
-}
-
-div.bienvenue div {
-    border: 2px solid;
-    border-color: rgb(241, 232, 217);
-    display: inline-block;
-    padding: 10px;
-}
-
 /* Conteneur de la page et enveloppe du contenu */
 #page-container {
     position: relative;
@@ -165,43 +145,44 @@ footer {
 .bas_de_page li {
     display: inline-block;
 }
-.Notre_equipe3 h2,
-.Notre_equipe h1{
+
+/* Styles de tableau et de video */
+.titres {
+    text-align: center;
+}
+
+.titres h1{
     text-align: center;
     font-family: Cookie;
     font-size: 50px;
-    color: rgb(26, 17, 0);
-    background-color: rgba(241, 230, 195, 0.797);
+    background-color: bisque;
+    padding: 10px;
+    display: inline-block;
     border-radius: 5%;
-    padding: 5px;
 }
-.Notre_equipe{
-    padding-left: 40%;
-    padding-right: 40%;
-}
-.img1 {
-    width: 100px;
-    height: 100px;
-}
-.background{
-    background-color: rgba(241, 230, 195, 0.797);
+
+.tableau {
+    background-color: rgb(203, 181, 127);
     border-collapse: collapse;
 }
-.background-hover:hover{
-    background-color: rgb(148, 137, 113);
+
+.tableau img {
+    width: 200px;
 }
-.Font{
+
+th:hover,
+td:hover{
+    background-color: bisque;
+}
+
+th {
     font-family: Cookie;
     font-size: 25px;
     padding: 30px;
 }
-.Notre_equipe3{
-    padding-left: 40%;
-    padding-right:40% ;
-}
-.video{
-    width: 100%;
-    margin: 0;
-}
 
-
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

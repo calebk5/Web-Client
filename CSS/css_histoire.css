@@ -145,6 +145,8 @@ footer {
 .bas_de_page li {
     display: inline-block;
 }
+
+/* Contenu de la page  */
 .Titre2{
     font-family: Cookie;
     color: rgb(26, 17, 0);
