@@ -14,7 +14,7 @@ body {
 /* Styles pour l'en-tête */
 header {
     background-color: rgb(255, 255, 255);
-    outline: 1px solid rgb(43, 23, 0); /* Outline is now combined */
+    outline: 1px solid rgb(43, 23, 0);
 }
 
 /* Styles pour la partie supérieure de la page */
@@ -32,7 +32,7 @@ header {
     font-size: 14px;
     font-weight: 400;
     position: relative;
-    text-align: right; /* Moved from haut_de_page nav to haut_de_page li */
+    text-align: right;
 }
 
 .haut_de_page nav {
@@ -150,7 +150,7 @@ footer {
     display: inline-block;
 }
 
-/* Styles supplémentaires */
+/* Styles du formulaire */
 label.subtitle {
     font-style: italic;
     font-size: 20px;
