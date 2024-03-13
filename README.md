@@ -2,7 +2,7 @@
 
 Bienvenu aux sources officielles du deuxieme examen du cours developpement web de la cite collegiale.
 
-Notre projet de conception d'un site web de notre choix a débuté le 9 mars 2024, avec comme coéquipiers **Caleb Kastner**, **Georgio El-khoury** et **Tristan Bastien**. Les taches vurent divisées entre les trois, et ils ont complété le projet le **_date de cpmletion!!!!!!!!_**. 
+Notre projet de conception d'un site web de notre choix a débuté le 9 mars 2024, avec comme coéquipiers **Caleb Kastner**, **Georgio El-khoury** et **Tristan Bastien**. Les taches vurent divisées entre les trois, et ils ont complété le projet le 13 mars 2024.
 
 ### Synopsis
 Notre projet s'intitule "Totoko's Temptations"(**_mettre le lien!!!!!_**), et c'est le site web officiel des emplacements réels de franchise des patisseries. Le site contient un accueil, une séléction de produits, des inscriptions aux équipes et pour entrer en communication avec un employé, une page montrant les employées importants de T.T., et une page soulignant la mission de T.T.. 
