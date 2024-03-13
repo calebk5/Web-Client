@@ -149,8 +149,10 @@ footer {
 /* Contenu de la page  */
 .Titre2{
     font-family: Cookie;
-    background-color: rgb(203, 181, 127);
+    color: rgb(26, 17, 0);
+    background-color: rgba(241, 230, 195, 0.797);
     border-radius: 5%;
+    padding: 5px;
     
 }
 .Titre{
@@ -189,21 +191,23 @@ footer {
     left: 50%; 
     transform: translate(-50%, -50%); 
     text-align: center;
-    color: black; 
 }
 
 .Titre2 h2 {
     margin: 0; 
+    color: rgb(26, 17, 0);
+    border-bottom: 2px solid rgb(26, 17, 0);
 }
 
 .evolution{
-    font-family: Cookie;
     text-align: center;
     font-size: 45px;
-    background-color:rgb(203, 181, 127);
+    font-family: Cookie;
+    color: rgb(26, 17, 0);
+    background-color: rgba(241, 230, 195, 0.797);
+    border-radius: 5%;
     display: inline-block; 
     padding: 10px 20px; 
-    border-radius: 5px; 
 }
 .center {
     display: flex; 
@@ -219,7 +223,11 @@ footer {
     position: relative;
 }
 .wrapper p{
-padding-top: 10%;
+padding: 2% ;
+font-size: 16px;
+background-color: rgba(241, 230, 195, 0.633);
+color: rgb(26, 17, 0);
+border-radius: 5%;
 }
 .wrapper .image1{
     position: absolute;
@@ -246,10 +254,19 @@ padding-top: 10%;
     left: 50%;
     transform: translate(-800px,-125px);
 }
+
 .Mission{
     text-align: center;
 }
 .wrapper2{
     padding-left: 25%;
     padding-right: 25%;
+}
+
+.wrapper2 p {
+padding: 2% ;
+font-size: 16px;
+background-color: rgba(241, 230, 195, 0.633);
+color: rgb(26, 17, 0);
+border-radius: 5%;
 }

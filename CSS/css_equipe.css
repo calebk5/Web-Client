@@ -134,7 +134,7 @@ footer {
 }
 
 .bas_de_page a:hover {
-    color: rgb(208, 155, 30);
+    color: rgb(201, 175, 139);
 }
 
 .bas_de_page li:last-of-type {
@@ -178,6 +178,7 @@ td:hover{
 th {
     font-family: Cookie;
     font-size: 25px;
+    padding: 30px;
 }
 
 .video {
