@@ -95,26 +95,6 @@ nav,
     margin: 7px;
 }
 
-/* Section de bienvenue */
-.bienvenue {
-    font-family: Cookie;
-    text-align: center;
-    color: rgb(241, 232, 217);
-    padding: 10px;
-    font-size: 30px;
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-image: url(https://img.freepik.com/free-photo/flat-lay-types-bread-black-copy-space-background_23-2148432256.jpg?w=1800&t=st=1710112744~exp=1710113344~hmac=73c7ae37e7501f824b0de4e71ec7ea2963c8378a750e19d41cca1a723ad7a613);
-}
-
-div.bienvenue div {
-    border: 2px solid;
-    border-color: rgb(241, 232, 217);
-    display: inline-block;
-    padding: 10px;
-}
-
 /* Conteneur de la page et enveloppe du contenu */
 #page-container {
     position: relative;
@@ -167,8 +147,10 @@ footer {
 }
 .Titre2{
     font-family: Cookie;
-    background-color: rgb(203, 181, 127);
+    color: rgb(26, 17, 0);
+    background-color: rgba(241, 230, 195, 0.797);
     border-radius: 5%;
+    padding: 5px;
     
 }
 .Titre{
@@ -207,21 +189,23 @@ footer {
     left: 50%; 
     transform: translate(-50%, -50%); 
     text-align: center;
-    color: black; 
 }
 
 .Titre2 h2 {
     margin: 0; 
+    color: rgb(26, 17, 0);
+    border-bottom: 2px solid rgb(26, 17, 0);
 }
 
 .evolution{
-    font-family: Cookie;
     text-align: center;
     font-size: 45px;
-    background-color:rgb(203, 181, 127);
+    font-family: Cookie;
+    color: rgb(26, 17, 0);
+    background-color: rgba(241, 230, 195, 0.797);
+    border-radius: 5%;
     display: inline-block; 
     padding: 10px 20px; 
-    border-radius: 5px; 
 }
 .center {
     display: flex; 
@@ -237,7 +221,11 @@ footer {
     position: relative;
 }
 .wrapper p{
-padding-top: 10%;
+padding: 2% ;
+font-size: 16px;
+background-color: rgba(241, 230, 195, 0.633);
+color: rgb(26, 17, 0);
+border-radius: 5%;
 }
 .wrapper .image1{
     position: absolute;
@@ -264,10 +252,19 @@ padding-top: 10%;
     left: 50%;
     transform: translate(-800px,-125px);
 }
+
 .Mission{
     text-align: center;
 }
 .wrapper2{
     padding-left: 25%;
     padding-right: 25%;
+}
+
+.wrapper2 p {
+padding: 2% ;
+font-size: 16px;
+background-color: rgba(241, 230, 195, 0.633);
+color: rgb(26, 17, 0);
+border-radius: 5%;
 }
