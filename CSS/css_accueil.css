@@ -181,12 +181,13 @@ footer {
 }
 
 .produit_accueil img {
-    padding-left: 20%;
+    padding-left: 30%;
+
 }
 
 .produit_accueil p {
     text-align: left;
-    width: 35%;
+    width: 75%;
     font-size: 20px; /* Ajustement de la taille de la police */
 }
 
@@ -265,88 +266,4 @@ footer {
     font-size: 30px;
     color: rgb(26, 17, 0);
     padding: 5px;
-}
-
-/* Media queries pour la réactivité */
-
-/* Pour les écrans plus petits, réduisez la taille de la police */
-@media screen and (max-width: 768px) {
-    .logo {
-        font-size: 20px;
-    }
-
-    .haut_de_page li {
-        font-size: 12px;
-    }
-
-    .produit_accueil h2 {
-        font-size: 30px;
-    }
-
-    .produit_accueil img {
-        padding-left: 10%;
-    }
-
-    .produit_accueil p {
-        width: 50%;
-    }
-
-    .produit_accueil h4 {
-        font-size: 30px;
-    }
-
-    .intro_info div {
-        width: 100%;
-    }
-
-    .intro_info h2 {
-        font-size: 30px;
-    }
-
-    .intro_info li {
-        font-size: 16px;
-    }
-
-    .intro_info p {
-        font-size: 20px;
-    }
-}
-
-/* Pour les écrans très petits, réduisez encore plus la taille de la police */
-@media screen and (max-width: 480px) {
-    .logo {
-        font-size: 16px;
-    }
-
-    .haut_de_page li {
-        font-size: 10px;
-    }
-
-    .produit_accueil h2 {
-        font-size: 24px;
-    }
-
-    .produit_accueil img {
-        padding-left: 5%;
-    }
-
-    .produit_accueil p {
-        width: 70%;
-    }
-
-    .produit_accueil h4 {
-        font-size: 24px;
-    }
-
-    .intro_info h2 {
-        font-size: 24px;
-    }
-
-    .intro_info li {
-        font-size: 14px;
-    }
-
-    .intro_info p {
-        font-size: 16px;
-    }
 }
