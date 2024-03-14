@@ -235,7 +235,7 @@ border-radius: 5%;
     height: 80%;
     top: 50%;
     left: 50%;
-    transform: translate(-800px,-125px);
+    transform: translate(-200%,-63%);
 }
 
 .wrapper .image2{
@@ -244,7 +244,7 @@ border-radius: 5%;
     height: 80%;
     top: 50%;
     left: 50%;
-    transform: translate(-800px,-125px);
+    transform: translate(-200%,-60%);
 }
 .wrapper .image3{
     position: absolute;
@@ -252,7 +252,7 @@ border-radius: 5%;
     height: 80%;
     top: 50%;
     left: 50%;
-    transform: translate(-800px,-125px);
+    transform: translate(-200%,-65%);
 }
 
 .Mission{

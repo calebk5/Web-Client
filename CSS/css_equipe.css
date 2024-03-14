@@ -155,14 +155,14 @@ footer {
     text-align: center;
     font-family: Cookie;
     font-size: 50px;
-    background-color: bisque;
+    background-color: rgba(241, 230, 195, 0.633);
     padding: 10px;
     display: inline-block;
     border-radius: 5%;
 }
 
 .tableau {
-    background-color: rgb(203, 181, 127);
+    background-color: rgb(201, 175, 139);
     border-collapse: collapse;
 }
 
@@ -172,7 +172,7 @@ footer {
 
 th:hover,
 td:hover{
-    background-color: bisque;
+    background-color: rgba(241, 230, 195, 0.797);
 }
 
 th {
