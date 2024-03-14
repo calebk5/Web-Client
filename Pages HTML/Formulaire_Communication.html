@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Totoko's Temptations</title>
-    <link rel="stylesheet" href="../CSS/css_formulaire_c.css"> <!-- Lien vers la feuille de style CSS -->
+    <link rel="stylesheet" href="../CSS/css_formulaire_c.css">
 </head>
 
 <body>
@@ -14,13 +14,15 @@
             <!-- En-tête -->
             <header>
                 <div class="haut_de_page">
-                    <div class="logo"><img src="../Images/Totokos.Temptations.Logo.Website.png" width="50px" alt="Logo">Totoko's Temptations</div>
+                    <div class="logo">
+                        <img src="../Images/Totokos.Temptations.Logo.Website.png" width="50px" alt="Logo">Totoko's Temptations
+                    </div>
                     <!-- Navigation -->
                     <nav>
                         <ul>
                             <li><a href="./Accueil_Boulangerie.html">Accueil</a></li>
-                            <li><a href="./Selection_Produit.html">Sélection de produits</a>
-                                <!-- Sous-menu de sélection de produits -->
+                            <li>
+                                <a href="./Selection_Produit.html">Sélection de produits</a>
                                 <ul class="sous-menu">
                                     <li><a href="./Selection_Produit.html#viennoiseries">Viennoiserie</a></li>
                                     <li><a href="./Selection_Produit.html#pains">Pains délicieux</a></li>
@@ -50,27 +52,19 @@
                                 <legend>Identité</legend>
                                 <div>
                                     <label for="prenom">Prénom</label>
-                                    <div>
-                                        <input type="text" name="fname" id="prenom" placeholder="">
-                                    </div>
+                                    <input type="text" name="fname" id="prenom" placeholder="Entrez votre prénom">
                                 </div>
                                 <div>
                                     <label for="nom">Nom</label>
-                                    <div>
-                                        <input type="text" name="lname" id="nom" placeholder="">
-                                    </div>
+                                    <input type="text" name="lname" id="nom" placeholder="Entrez votre nom">
                                 </div>
                                 <div>
                                     <label for="nom">Numéro de téléphone</label>
-                                    <div>
-                                        <input type="text" name="numero_de_telephone" id="numero_de_telephone" placeholder="#123-456-7890">
-                                    </div>
+                                    <input type="text" name="numero_de_telephone" id="numero_de_telephone" placeholder="#123-456-7890">
                                 </div>
                                 <div>
                                     <label for="nom">Adresse Courriel</label>
-                                    <div>
-                                        <input type="text" name="adresse_courriel" id="adresse_courriel" placeholder="Jo@blo.com">
-                                    </div>
+                                    <input type="text" name="adresse_courriel" id="adresse_courriel" placeholder="Jo@blo.com">
                                 </div>
                                 <br>
                                 <div>
@@ -88,7 +82,7 @@
                                 <div>
                                     <label class="subtitle" for="position">Message</label>
                                 </div>
-                                    <input type="text" id="message" name="message" value="message">
+                                <input type="text" id="message" name="message" placeholder="Votre message">
                                 <br>
                                 <div>
                                     <input type="checkbox" id="importance" name="importance" value="true">
@@ -107,7 +101,6 @@
                 <div class="bas_de_page">
                     <nav>
                         <ul>
-                            <!-- Liens de navigation du pied de page -->
                             <li><a href="https://github.com/calebk5/Web-Client">Visitez notre répertoire GitHub en cliquant ici</a></li>
                             <li>Téléphonez-nous au : <a href="tel:819-123-1234">819&#8209;123&#8209;1234</a></li>
                             <li><a href="./Accueil_Boulangerie.html">Accueil</a></li>
