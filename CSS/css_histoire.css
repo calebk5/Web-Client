@@ -147,59 +147,52 @@ footer {
 }
 
 /* Contenu de la page  */
-.Titre2{
-    font-family: Cookie;
-    color: rgb(26, 17, 0);
-    background-color: rgba(241, 230, 195, 0.797);
-    border-radius: 5%;
-    padding: 5px;
-    
-}
-.Titre{
+
+/* Haut de la page avec titre et background image */
+.titre {
     height: 400px;
     font-size: 50px;
     text-align: center;
     
     
 }
-.Titre .Titre2{
-    margin: 0;
-}
-.Titre .image{
-    width: 100%;
-    height: 400px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    overflow: hidden;
-}
-.image {
-    position: relative;
-    width: 100%;
-    height: 400px; 
-}
 
-.image img {
-    width: 100%;
-    height:400px;
-    object-fit: cover;
-}
-
-.Titre2 {
+.titre h1{
+    font-family: Cookie;
+    color: rgb(26, 17, 0);
+    background-color: rgba(241, 230, 195, 0.797);
+    border-radius: 5%;
+    padding: 5px;
     position: absolute;
-    top: 50%; 
+    top: 30%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     text-align: center;
 }
 
-.Titre2 h2 {
-    margin: 0; 
-    color: rgb(26, 17, 0);
-    border-bottom: 2px solid rgb(26, 17, 0);
+.titre div {
+    position: relative;
+    width: 100%;
+    height: 400px;
 }
 
-.evolution{
+.titre img {
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+}
+
+/* Textes et images de l'histoire */
+
+.histoire div {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+    margin: 0; 
+}
+
+.histoire h2{
     text-align: center;
     font-size: 45px;
     font-family: Cookie;
@@ -209,13 +202,7 @@ footer {
     display: inline-block; 
     padding: 10px 20px; 
 }
-.center {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100px; 
-    margin: 0; 
-}
+
 .wrapper{
     margin-left: 50%;
     margin-right: 15%;
@@ -223,13 +210,13 @@ footer {
     position: relative;
 }
 .wrapper p{
-padding: 2% ;
-font-size: 16px;
-background-color: rgba(241, 230, 195, 0.633);
-color: rgb(26, 17, 0);
-border-radius: 5%;
+    padding: 2% ;
+    font-size: 16px;
+    background-color: rgba(241, 230, 195, 0.633);
+    color: rgb(26, 17, 0);
+    border-radius: 5%;
 }
-.wrapper .image1{
+.wrapper img{
     position: absolute;
     width: 80%;
     height: 80%;
@@ -238,32 +225,13 @@ border-radius: 5%;
     transform: translate(-800px,-125px);
 }
 
-.wrapper .image2{
-    position: absolute;
-    width: 80%;
-    height: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-800px,-125px);
-}
-.wrapper .image3{
-    position: absolute;
-    width: 80%;
-    height: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-800px,-125px);
-}
-
-.Mission{
-    text-align: center;
-}
-.wrapper2{
+/* Section mession */
+.mission{
     padding-left: 25%;
     padding-right: 25%;
 }
 
-.wrapper2 p {
+.mission p {
 padding: 2% ;
 font-size: 16px;
 background-color: rgba(241, 230, 195, 0.633);
